@@ -77,7 +77,6 @@ a{
 }
 
 ul li::marker{
-    /* content: '\25BA \0020'; */
     content: '\25BC';
 }
 
