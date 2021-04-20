@@ -83,9 +83,17 @@ ul li::marker{
     text-align: center;
     vertical-align: middle;
     line-height: 20px;
+    margin: 10px 5px 10px 0;
+}
+
+.point.done{
     color: #85cdbc;
     border: 1px solid #85cdbc;
-    margin: 10px 5px 10px 0;
+}
+
+.point.not-done{
+    color: #f18781;
+    border: 1px solid #f18781;
 }
 
 .point-tag{
@@ -100,5 +108,28 @@ ul li::marker{
     background-color: #45abea;
 }
 
+.point-tag.q1-goals{
+    background-color: #9c72e4;
+}
+
+.point-tag.recruiting{
+    background-color: #64c0a9;
+}
+
+.point-tag.mobile{
+    background-color: #f29e33;
+}
+
+.point-tag.website{
+    background-color: #d863a1;
+}
+
+.point-tag.sales{
+    background-color: #b0c926;
+}
+
+ul{
+    margin-bottom: 20px;
+}
 
 /* fine sezione principale */
