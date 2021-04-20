@@ -43,20 +43,31 @@ h1{
     margin-top: 20px;
 }
 
-.container.button > button{
-    padding: 5px;
-    border-radius: 5px;    
+.container.button > div{
+    padding: 7px 14px;
+    border-radius: 5px;   
+    display: inline-block; 
+}
+
+a{
+    text-decoration: none;
+}
+
+#task-btn > a{
+    color: white;
+}
+
+#section-btn > a{
+    color: #e3e6e8;
 }
 
 #task-btn{
     background-color: #47adf1;
-    color: white;
     border: none;
 }
 
 #section-btn{
     background-color: white;
-    color: #e3e6e8;
     border: 1px solid #e3e6e8;
 }
 
@@ -66,10 +77,12 @@ h1{
 }
 
 ul li::marker{
-    content: '\22BF';
+    /* content: '\25BA \0020'; */
+    content: '\25BC';
 }
 
 .li-title{
+    display: inline-block;
     font-size: 20px;
     font-weight: bold;
     margin-top: 20px;
@@ -130,6 +143,8 @@ ul li::marker{
 
 ul{
     margin-bottom: 20px;
+    list-style-position: inside;
+    padding-left: 0;
 }
 
 /* fine sezione principale */
