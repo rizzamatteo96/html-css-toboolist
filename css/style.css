@@ -74,6 +74,7 @@ a{
 .container.main-list{
     margin-top: 5px;
     color: #444851;
+    border-radius: 0 0 10px 10px;
 }
 
 ul li::marker{
